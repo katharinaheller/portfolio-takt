@@ -1,0 +1,13 @@
+{
+  "project": "TAKT",
+  "base": "https://katharinaheller.github.io/portfolio-takt/",
+  "production": true,
+  "time": "2026-10-05T13:56:09.060Z",
+  "routeCount": 10,
+  "linksChecked": 15,
+  "errors": [],
+  "requestErrors": [],
+  "externalRequests": [],
+  "failures": [],
+  "accessibilityViolations": []
+}
