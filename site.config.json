@@ -1,0 +1,20 @@
+{
+  "name": "TAKT",
+  "slug": "takt",
+  "origin": "https://katharinaheller.github.io",
+  "basePath": "/portfolio-takt/",
+  "routes": [
+    "",
+    "produkt/",
+    "loesungen/",
+    "preise/",
+    "demo/",
+    "sicherheit/",
+    "login/",
+    "kontakt/",
+    "impressum/",
+    "datenschutz/"
+  ],
+  "locale": "de-DE",
+  "output": "out"
+}

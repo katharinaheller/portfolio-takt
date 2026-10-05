@@ -1,0 +1,13 @@
+{
+  "project": "TAKT",
+  "base": "http://127.0.0.1:4303/",
+  "production": false,
+  "time": "2026-10-05T13:49:52.848Z",
+  "routeCount": 10,
+  "linksChecked": 21,
+  "errors": [],
+  "requestErrors": [],
+  "externalRequests": [],
+  "failures": [],
+  "accessibilityViolations": []
+}

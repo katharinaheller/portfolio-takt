@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:I[1896,["411","static/chunks/app/preise/page-1ed970a9189bb50b.js"],"Pricing"]
+3:I[2280,["411","static/chunks/app/preise/page-1ed970a9189bb50b.js"],"Roi"]
+4:I[484,[],"OutletBoundary"]
+5:"$Sreact.suspense"
+9:I[484,[],"ViewportBoundary"]
+a:I[484,[],"MetadataBoundary"]
+b:I[6869,[],"IconMark"]
+d:I[7121,[],""]
+e:I[4581,[],""]
+11:I[8481,["177","static/chunks/app/layout-9943dcf5ac65afb1.js"],"Header"]
+:HL["/portfolio-takt/_next/static/css/11b53bb3e6f0be25.css","style"]
+8:X
+10:X
+10:C
+0:{"buildId":"YOlP0qYMGLKq7gyfuS6Cn","data":[{"rsc":["$","$1","c",{"children":[[["$","section",null,{"className":"page-intro centered","children":[["$","p",null,{"className":"eyebrow","children":"KLAR KALKULIERBAR."}],["$","h1",null,{"children":["Ein passender Takt.",["$","br",null,{}],"Für jede Betriebsgröße."]}],["$","p",null,{"children":"Nach Standorten und Transportvolumen. Mit definiertem Umfang und transparenten Beispielpreisen."}]]}],["$","section",null,{"className":"section pricing-section","children":["$","$L2",null,{}]}],["$","section",null,{"className":"section roi-section","children":["$","$L3",null,{}]}]],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L9",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$La",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Preise für Ihren Betrieb | TAKT"}],["$","meta","1",{"name":"description","content":"Transparente fiktive SaaS-Pakete ab 149 € netto pro Monat. Monatliche oder jährliche Abrechnung vergleichen und eine nachvollziehbare Modellrechnung ausprobieren."}],["$","link","2",{"rel":"canonical","href":"https://katharinaheller.github.io/portfolio-takt/preise/"}],["$","meta","3",{"property":"og:title","content":"Preise für Ihren Betrieb | TAKT"}],["$","meta","4",{"property":"og:description","content":"Transparente fiktive SaaS-Pakete ab 149 € netto pro Monat. Monatliche oder jährliche Abrechnung vergleichen und eine nachvollziehbare Modellrechnung ausprobieren."}],["$","meta","5",{"property":"og:url","content":"https://katharinaheller.github.io/portfolio-takt/preise/"}],["$","meta","6",{"property":"og:locale","content":"de_DE"}],["$","meta","7",{"property":"og:image","content":"https://katharinaheller.github.io/portfolio-takt/social.jpg"}],["$","meta","8",{"property":"og:image:width","content":"1200"}],["$","meta","9",{"property":"og:image:height","content":"630"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Preise für Ihren Betrieb"}],["$","meta","13",{"name":"twitter:description","content":"Transparente fiktive SaaS-Pakete ab 149 € netto pro Monat. Monatliche oder jährliche Abrechnung vergleichen und eine nachvollziehbare Modellrechnung ausprobieren."}],["$","meta","14",{"name":"twitter:image","content":"https://katharinaheller.github.io/portfolio-takt/social.jpg"}],["$","link","15",{"rel":"icon","href":"/portfolio-takt/favicon.svg"}],["$","$Lb","16",{}]]}]}]}],null]}],"isPartial":"$@c","staleTime":"$8","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Ld",null,{"parallelRouterKey":"children","template":["$","$Le",null,{}]}]]}],"isPartial":"$@f","staleTime":"$8","varyParams":"$10"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio-takt/_next/static/css/11b53bb3e6f0be25.css","precedence":"next"}]],["$","html",null,{"lang":"de","className":"__variable_67b68b","children":["$","body",null,{"children":[["$","a",null,{"className":"skip","href":"#inhalt","children":"Zum Inhalt"}],["$","$L11",null,{}],["$","main",null,{"id":"inhalt","children":["$","$Ld",null,{"parallelRouterKey":"children","template":["$","$Le",null,{}],"notFound":[["$","section",null,{"className":"page-intro","children":[["$","p",null,{"className":"eyebrow","children":"404"}],["$","h1",null,{"children":["Hier geht es",["$","br",null,{}],"nicht weiter."]}],["$","p",null,{"children":"Die angefragte Seite wurde nicht gefunden."}],["$","a",null,{"className":"button","href":"/portfolio-takt/","children":"Zur Startseite →"}]]}],[]]}]}],["$","footer",null,{"children":[["$","div",null,{"className":"footer-main","children":[["$","a",null,{"className":"logo","href":"/portfolio-takt/","children":"takt."}],["$","p",null,{"children":["Weniger nachfragen.",["$","br",null,{}],"Mehr im Fluss."]}],["$","div",null,{"children":[["$","a",null,{"href":"/portfolio-takt/produkt/","children":"Produkt"}],["$","a",null,{"href":"/portfolio-takt/preise/","children":"Preise"}],["$","a",null,{"href":"/portfolio-takt/sicherheit/","children":"Sicherheitskonzept"}],["$","a",null,{"href":"/portfolio-takt/kontakt/","children":"Kontakt-Demo"}]]}]]}],["$","div",null,{"className":"footer-bottom","children":[["$","p",null,{"children":"Portfolio-Demoprojekt – Unternehmen und Geschäftsdaten sind fiktiv."}],"$L12","$L13","$L14"]}]]}]]}]}]]}],"isPartial":"$@15","staleTime":"$8","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@16","rootVaryParams":null,"needsRuntimeRequest":"$@17"}
+6:null
+12:["$","a",null,{"href":"/portfolio-takt/impressum/","children":"Impressum-Demo"}]
+13:["$","a",null,{"href":"/portfolio-takt/datenschutz/","children":"Datenschutz-Demo"}]
+14:["$","span",null,{"children":"© 2026 TAKT"}]
+8:300
+17:true
+8:C
+16:0
+c:"$undefined"
+f:"$undefined"
+15:"$undefined"
+7:"$undefined"
