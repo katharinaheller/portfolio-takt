@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import localFont from "next/font/local";
 import { Header } from "../components/Header";
-import { href } from "../lib/site";
+import { href, absolute } from "../lib/site";
 import "./globals.css";
 const sans = localFont({
   src: "../../public/fonts/sans.woff2",
@@ -13,6 +13,22 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="de" className={sans.variable}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              name: "TAKT – fiktive Produktdemonstration",
+              applicationCategory: "BusinessApplication",
+              operatingSystem: "Webbrowser",
+              url: absolute(),
+              inLanguage: "de-DE",
+              description:
+                "Portfolio-Demoprojekt für die Koordination von Transportzeitfenstern. Kein real verfügbarer Softwaredienst.",
+            }),
+          }}
+        />
         <a className="skip" href="#inhalt">
           Zum Inhalt
         </a>

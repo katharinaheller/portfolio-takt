@@ -1,4 +1,38 @@
-import {test,expect} from '@playwright/test';
-test('resolve a transport exception and reset',async({page})=>{await page.goto('./demo/');await page.getByRole('button',{name:/TF-2048/}).click();await page.getByRole('button',{name:'Zeitfenster auf 09:50 verschieben'}).click();await expect(page.locator('.dash-notice')).toContainText('Klärfall ist gelöst');await page.locator('.table-tabs').getByRole('button',{name:/Klärfälle/}).click();await expect(page.locator('.empty')).toContainText('Alles geklärt');await page.getByRole('button',{name:'Zurücksetzen'}).click();await expect(page.getByRole('button',{name:/TF-2048/})).toContainText('09:30');});
-test('pricing and ROI inputs change the calculated values',async({page})=>{await page.goto('./preise/');await expect(page.locator('.price').first()).toContainText('149');await page.getByRole('button',{name:/Jährlich/}).click();await expect(page.locator('.price').first()).toContainText('126,65');await page.getByLabel('Transporte pro Woche').fill('240');await expect(page.locator('.roi-result>strong')).toContainText('20');});
-test('login is a transparent demo without credentials',async({page})=>{await page.goto('./login/');await expect(page.locator('input[type=password]')).toHaveCount(0);await page.getByRole('link',{name:'Als Demo-Disponentin starten'}).click();await expect(page.locator('.dashboard')).toBeVisible();});
+import { test, expect } from "@playwright/test";
+test("resolve a transport exception and reset", async ({ page }) => {
+  await page.goto("./demo/");
+  await page.getByRole("button", { name: /TF-2048/ }).click();
+  await page
+    .getByRole("button", { name: "Zeitfenster auf 09:50 verschieben" })
+    .click();
+  await expect(page.locator(".dash-notice")).toContainText(
+    "Klärfall ist gelöst",
+  );
+  await page
+    .locator(".table-tabs")
+    .getByRole("button", { name: /Klärfälle/ })
+    .click();
+  await expect(page.locator(".empty")).toContainText("Alles geklärt");
+  await page.getByRole("button", { name: "Zurücksetzen" }).click();
+  await expect(page.getByRole("button", { name: /TF-2048/ })).toContainText(
+    "09:30",
+  );
+});
+test("pricing and ROI inputs change the calculated values", async ({
+  page,
+}) => {
+  await page.goto("./preise/");
+  await expect(page.locator(".price").first()).toContainText("149");
+  await page.getByRole("button", { name: /Jährlich/ }).click();
+  await expect(page.locator(".price").first()).toContainText("126,65");
+  await page.getByLabel("Transporte pro Woche").fill("240");
+  await expect(page.locator(".roi-result>strong")).toContainText("20");
+});
+test("login is a transparent demo without credentials", async ({ page }) => {
+  await page.goto("./login/");
+  await expect(page.locator("input[type=password]")).toHaveCount(0);
+  await page
+    .getByRole("link", { name: "Als Demo-Disponentin starten" })
+    .click();
+  await expect(page.locator(".dashboard")).toBeVisible();
+});
